@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+        
+  background:#f1f5f9;
+  font-family:sans-serif;
+  direction:rtl;
+  max-width:700px;
+  margin:auto;
+  padding:20px;
+}
+
+/* عشان الهيدر يصير كرت ابيض */
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 18px 20px;
+  border-radius: 12px;
+}
+nav{
+  display: flex;
+  gap: 18px;
+}
+nav a :hover{
+  text-decoration: none;
+  color: #0018ec;
+  font-size: 13px;
+}
+
+/* مقالتك */
+article{
+  background:white;
+  padding:20px;
+  border-radius:12px;
+  margin-top:15px;
+}
+
+/* هاد اللي عندك بالفيديو - 3 ارقام */
+.numbers{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:10px;
+  margin:15px 0;
+  text-align:center;
+}
+.numbers div{
+  background:#f8fafc;
+  padding:15px;
+  border-radius:10px;
+  border:1px solid #e2e8f0;
+}
+.numbers b{
+  font-size:26px;
+  color:#4f46e5;
+  display:block;
+}
+
+/* التذييل اللي عندك */
+footer{
+  display:flex;
+  justify-content:space-between;
+  background:#1e293b;
+  color:white;
+  padding:12px 20px;
+  border-radius:12px;
+  margin-top:15px;
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة هبوط</title>
+</head>
+<body>
+    <header>
+        <h1>نادي البرمجة الجامعي</h1>
+         <nav>
+     <a href="#">الرئيسية</a>
+    <a href="#">عن النادي</a>
+    <a href="#">الاخبار</a>
+    <a href="#">الورشات</a>
+    <a href="#">التسجيل</a>
+   
+  </nav>
+        
+    </header>
+ 
+    <main>
+        <article>
+             <h2>لماذا تنضم الينا</h2>
+         
+            <p>تعمل ضمن فريق على مشاريع تخدم الجامعة <p>
+            <p>تتعلم مهارات عملية لا تكفيها محاضرات الجامعة<p>
+            <p>تتعرف على طلاب يشاركوك الاهتمام نفسه<p>
+            <p>تنشئ ملف اعمال على مواقع العمل الحر<p>
+         <hr>
+         <h3>النادي بالارقام</h3>
+         <div class=" numbers">
+            <div>
+                <b>120</b>
+         <p> عضو من مختلف التخصصات</p>
+            </div>
+            <div>
+                 <b>8</b>
+         <p> ورشات كل شهر</p>
+
+            </div>
+            <div>
+                 <b>15</b>
+         <p> مشاريع من التأسيس</p>
+
+            </div>
+
+         </div>
+         <h3> أقرب ورشة</h3>
+         <br>
+            اساسيات html
+            يوم الاحد من10:00الى12:00
+            مع المهندس احمد سالم    
+            <br>
+            <a href="#">اطلع على الورشات كاملة</a>
+        </br>
+        <h3>اخر الاخبار</h3>
+         <p>
+            اختتام النادي 
+            <br>
+            اكتوبر 15-2026
+        
+        </p>
+        <footer>
+            <span>تابعنا</span>
+            <span>نادي البرمجة2026</span>
+            <a href="#">لتواصل:0569999712</a>
+        </footer>
+         
+          
+          
+
+
+        </article>
+    </main>
+    
+</body>
+</html>
